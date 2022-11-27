@@ -336,9 +336,9 @@ void Toll_Plaza::totalvehicle()
 
 int main()
 {
-            Toll_Plaza jamuna;
+            Toll_Plaza bridge;
 
-            jamuna.CNT();
+            bridge.CNT();
 
             char xxx;
 
@@ -358,19 +358,19 @@ int main()
                                      switch(x)
                                      {
                                      case 'a':
-                                                    jamuna.enterBus();
+                                                    bridge.enterBus();
                                                     break;
                                      case 'b':
-                                                     jamuna.enterTruck();
+                                                    bridge.enterTruck();
                                                     break;
                                      case 'c':
-                                                    jamuna.enterByke();
+                                                    bridge.enterByke();
                                                     break;
                                      case 'd':
-                                                    jamuna.enterCar();
+                                                    bridge.enterCar();
                                                     break;
                                      case 'e':
-                                                    jamuna.enterPicup();
+                                                    bridge.enterPicup();
                                                     break;
                                      default:
                                                     cout<<"Wrong Input...\n";
@@ -379,16 +379,16 @@ int main()
 
                                      break;
                     case '2':
-                                    jamuna.banned_vehicle();
+                                    bridge.banned_vehicle();
                                     break;
                     case '3':
-                                    jamuna.display();
+                                    bridge.display();
                                     break;
                     case '4':
-                                    jamuna.totalamount();
+                                    bridge.totalamount();
                                     break;
                     case '5':
-                                    jamuna.totalvehicle();
+                                    bridge.totalvehicle();
                                     break;
                     case '6':
                                     cout<<"\nProgram terminated............\n";
